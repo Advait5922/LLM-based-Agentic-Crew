@@ -23,8 +23,8 @@ To set up the environment, run:
 
 ## Environment Variables
 Before running the code, set the following environment variables:
-- **OPENAI_API_KEY**: Your OpenAI API key for accessing GPT models.
-- **SERPER_API_KEY**: Your SerperDev API key for web search.
+- **OPENAI_API_KEY**: OpenAI API key for accessing GPT models.
+- **SERPER_API_KEY**: SerperDev API key for web search.
 
 ## Project Workflow
 1. **Agents**:
@@ -40,8 +40,8 @@ Before running the code, set the following environment variables:
 1. **Set Up Keys**:
    Ensure the required API keys are stored in the environment:
    ```python
-   os.environ['OPENAI_API_KEY'] = 'your_openai_key'
-   os.environ['SERPER_API_KEY'] = 'your_serper_key'
+   os.environ['OPENAI_API_KEY'] = 'openai_key'
+   os.environ['SERPER_API_KEY'] = 'serper_key'
    ```
 2. **Run the Script**:
    Execute the script to initiate the agents:
@@ -58,7 +58,7 @@ The research agent gathers links and snippets such as:
 - [3 predictions for AI in healthcare in 2024](https://blog.google/technology/health/google-ai-and-health/3-predictions-for-ai-in-healthcare-in-2024/)
 
 ## Limitations
-- The system relies on API responses; ensure the APIs are functional and accessible.
+- The system relies on API responses; so MUST ensure the APIs are functional and accessible.
 - Results are subject to the quality and accuracy of web search results.
 
 ## License
